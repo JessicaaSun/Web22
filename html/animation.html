@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        background-color: lightblue;
+        align-items: center;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: yellow;
+        animation: rise 2s ease-in-out infinite alternate;
+      }
+      @keyframes rise {
+        0% {
+            transform: translateY(50vh);
+            background-color: orange;
+        }
+        100% {
+            transform: translateY(0);
+            background-color: red;
+        }
+
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+
+        </div>
+    </main>
+</body>
+</html>

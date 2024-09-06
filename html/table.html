@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table | តារាង</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      ul {
+        list-style: lower-roman;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header  -->
+    <!-- main  -->
+    <main>
+      <table align="center" border="1" cellpadding="10">
+        <caption>
+          Student
+        </caption>
+        <colgroup>
+          <col span="2" bgcolor="pink" />
+          <col span="3" background="../images/bg.jpg" />
+        </colgroup>
+        <thead bgcolor="lightgray">
+          <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Membership Date</th>
+            <th rowspan="2">Balance</th>
+          </tr>
+          <tr>
+            <th>Joined</th>
+            <th>Canceled</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reay</td>
+            <td>01</td>
+            <td>28 Sep 2023</td>
+            <td>n/a</td>
+            <td>0.00</td>
+          </tr>
+          <tr>
+            <td>Chhenghort</td>
+            <td>02</td>
+            <td>8 Aug 2024</td>
+            <td>20 Aug 2024</td>
+            <td>8.98</td>
+          </tr>
+          <tr>
+            <td>Lun</td>
+            <td>03</td>
+            <td>23 Aug 2024</td>
+            <td>24 Aug 2024</td>
+            <td>90.98</td>
+          </tr>
+        </tbody>
+        <tfoot bgcolor="lightgreen">
+          <tr>
+            <td align="right" colspan="4">Total Balance</td>
+            <td>100.37</td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- list  -->
+      <section>
+        <ol>
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Banana</li>
+          <ul>
+            <li>Grape</li>
+          </ul>
+        </ol>
+        <ul>
+          <li>Red</li>
+          <li>Blue</li>
+          <li>Green</li>
+        </ul>
+        <dl>
+          <dt>Item</dt>
+          <dd>This is definition data</dd>
+          <dd>Another definition data</dd>
+        </dl>
+      </section>
+    </main>
+    <!-- footer  -->
+  </body>
+</html>

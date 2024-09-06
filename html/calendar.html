@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap");
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Kantumruy Pro", sans-serif;
+        font-size: 30px;
+      }
+      table {
+        width: 100%;
+        height: 100vh;
+        border-collapse: collapse;
+        border: 10px solid white;
+      }
+      table th,
+      td {
+        width: 14.28%;
+        padding: 20px 0px;
+        text-align: center;
+      }
+      thead tr {
+        background-color: purple;
+        color: white;
+      }
+      tbody tr {
+        background-color: rgb(207, 200, 200);
+        color: purple;
+      }
+      .bg-orange {
+        background-color: orange;
+        color: white;
+      }
+      .number6 {
+        border: 5px dashed purple;
+      }
+      i {
+        color: darkblue;
+      }
+      .number8 {
+        background-image: url(https://i.pinimg.com/564x/59/f0/d0/59f0d0067c5d04c5db5f92f517767002.jpg);
+        background-size: cover;
+        color: white;
+      }
+      .number25 {
+        background-size: cover;
+        background-image: url(https://i.pinimg.com/564x/3d/ad/c3/3dadc3caed81ceec6207b79d124c389d.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table border="1">
+        <thead>
+          <tr>
+            <th colspan="7">កុម្ភៈ ២០២៣</th>
+          </tr>
+          <tr>
+            <th>អាទិត្យ</th>
+            <th>ច័ន្ទ</th>
+            <th>អង្គារ</th>
+            <th>ពុធ</th>
+            <th>ព្រហស្បរិ៍</th>
+            <th>សុក្រ</th>
+            <th>សៅរ៍</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="bg-orange">២៩</td>
+            <td class="bg-orange">៣០</td>
+            <td class="bg-orange">៣១</td>
+            <td>១</td>
+            <td>២</td>
+            <td>៣</td>
+            <td>៤</td>
+          </tr>
+          <tr>
+            <td>៥</td>
+            <td class="number6">
+              6 <span><i class="fa-solid fa-user-graduate"></i></span>
+            </td>
+            <td>៧</td>
+            <td class="number8">៨</td>
+            <td>៩</td>
+            <td>១០</td>
+            <td>១១</td>
+          </tr>
+          <tr>
+            <td>១២</td>
+            <td>១៣</td>
+            <td>
+              ១៤
+              <span><i class="fa-solid fa-heart"></i></span>
+              <p>Valentine</p>
+            </td>
+            <td>១៥</td>
+            <td>១៦</td>
+            <td>១៧</td>
+            <td>១៨</td>
+          </tr>
+          <tr>
+            <td>១៩</td>
+            <td>២០</td>
+            <td>២១</td>
+            <td>២២</td>
+            <td>២៣</td>
+            <td class="number25">២៤</td>
+            <td>២៥</td>
+          </tr>
+          <tr>
+            <td>២៦</td>
+            <td>២៧</td>
+            <td>២៨</td>
+            <td class="bg-orange">១</td>
+            <td class="bg-orange">២</td>
+            <td class="bg-orange">៣</td>
+            <td class="bg-orange">៤</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/5ce14b4205.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

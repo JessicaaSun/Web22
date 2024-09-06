@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name = "description" content="This is page site">
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- search -->
+      <label for="search">Search: </label>
+      <input type="search" name="search" id="search" />
+      <!-- text -->
+      <br />
+      <label for="name">Enter name: </label>
+      <input type="text" name="name" id="name" />
+      <!-- email  -->
+      <br />
+      <label for="email">Enter Email: </label>
+      <input required type="email" name="email" id="email" />
+      <!-- password  -->
+      <br />
+      <label for="password">Enter Password: </label>
+      <input type="password" name="password" id="password" />
+      <!-- number  -->
+      <br />
+      <label for="age">Enter Age: </label>
+      <input type="number" name="age" id="age" />
+      <!-- date  -->
+      <br />
+      <label for="date">Enter Date: </label>
+      <input type="date" name="date" id="date" />
+      <!-- color  -->
+      <br />
+      <label for="color">Select Color: </label>
+      <input type="color" name="color" id="color" />
+      <!-- checkbox -->
+      <br />
+      <label for="fruit">Select Fruit: </label>
+      <br />
+      <label for="apple">Apple</label>
+      <input type="checkbox" value="apple" name="fruit" id="apple" />
+      <br />
+      <label for="orange">Orange</label>
+      <input type="checkbox" value="orange" name="fruit" id="orange" />
+      <!-- radio -->
+      <br />
+      <label for="gender">Select Gender: </label>
+      <br />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <!-- datalist -->
+      <br />
+      <label for="browser"> Select Flavor </label>
+      <input
+        required
+        list="ice-cream-flavors"
+        id="ice-cream-choice"
+        name="ice-cream-choice"
+      />
+      <datalist id="ice-cream-flavors">
+        <option value="Chocolate"></option>
+        <option value="Coconut"></option>
+        <option value="Mint"></option>
+        <option value="Strawberry"></option>
+        <option value="Vanilla"></option>
+      </datalist>
+
+      <!-- file  -->
+      <br />
+      <label for="file">Select file</label>
+      <input type="file" multiple name="file" id="file" />
+
+      <br />
+      <label for="datetime">Select Datetime: </label>
+      <input type="datetime-local" name="datetime" id="datetime" />
+      <!-- submit  -->
+      <br /><br />
+      <input type="submit" value="Submit" />
+      <!-- reset -->
+      <input type="reset" value="Reset" />
+      <input type="hidden" name="hidden">
+    </form>
+  </body>
+</html>

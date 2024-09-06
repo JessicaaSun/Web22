@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        button {
+            border: 2px solid rgb(150, 17, 83);
+            background-color: hotpink;
+            color: white;
+            border-radius: 15px;
+            padding: 10px 15px;
+            transition: all 1s;
+        }
+        button:hover {
+            transform: scale(1.3);
+            background-color: rgb(200, 45, 123);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <button>Click Me</button>
+    </main>
+</body>
+</html>

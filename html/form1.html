@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="flavors">select flavor :</label>
+        <input required name="ice-cream-choice" id="ice-cream-choice" list="ice-cream-flavors">
+        <datalist id="ice-cream-flavors">
+            <option value="Apple"></option>
+            <option value="Orange"></option>
+            <option value="Kiwi"></option>
+        </datalist>
+        <br><br>
+
+        <label for="name">Enter Name :</label>
+        <input type="text" name="name" id="name">
+        <input type="hidden" name="hiddenfile" id="123456">
+        <br><br>
+
+        <label for="file">Enter File :</label>
+        <input type="file" multiple name="file" id="file">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
