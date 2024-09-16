@@ -1,6 +1,30 @@
-// Array method
-let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// filter method 
-let filter = number.filter((item) => item % 2 == 1);
-console.log(filter)
-// map method
+let student = [
+    {
+        username: "Kimleang",
+        age: 19,
+        address: {
+            city: "Phnom Penh",
+            district: "Chamkarmon"
+        }
+    },
+    {
+        username: "Sokheng",
+        age: 20,
+        address: {
+            city: "Phnom Penh",
+            district: "Toul Kork"
+        }
+    },
+    {
+        username: "Sokha",
+        age: 21,
+        address: {
+            city: "Phnom Penh",
+            district: "Dangkao"
+        }
+    }
+]
+let myJson = JSON.stringify(student)
+console.log(myJson)
+let myObj = JSON.parse(myJson)
+console.log(myObj)
